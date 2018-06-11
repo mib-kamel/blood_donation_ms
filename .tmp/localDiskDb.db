@@ -1,0 +1,65 @@
+{
+  "data": {
+    "donors": [
+      {
+        "firstName": "testA",
+        "lastName": "nameA",
+        "mail": "test1@test.com",
+        "phone": "0020 109 2111 121",
+        "bloodGroup": "A+",
+        "ip": "::ffff:127.0.0.1",
+        "lng": "30.001",
+        "lat": "30.9901",
+        "id": 630
+      },
+      {
+        "firstName": "testB",
+        "lastName": "nameB",
+        "mail": "test2@test.com",
+        "phone": "0020 109 2111 122",
+        "bloodGroup": "B+",
+        "ip": "::ffff:127.0.0.1",
+        "lng": "30.101",
+        "lat": "33.0001",
+        "id": 631
+      },
+      {
+        "firstName": "testC",
+        "lastName": "nameC",
+        "mail": "test3@test.com",
+        "phone": "0020 109 2111 123",
+        "bloodGroup": "A-",
+        "ip": "::ffff:127.0.0.1",
+        "lng": "25.001",
+        "lat": "32.8601",
+        "id": 632
+      },
+      {
+        "firstName": "testD",
+        "lastName": "nameD",
+        "mail": "test4@test.com",
+        "phone": "0020 109 2111 124",
+        "bloodGroup": "AB+",
+        "ip": "::ffff:127.0.0.1",
+        "lng": "30.041",
+        "lat": "31.0001",
+        "id": 633
+      }
+    ]
+  },
+  "schema": {
+    "donors": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      }
+    }
+  },
+  "counters": {
+    "donors": {
+      "id": 633
+    }
+  }
+}
